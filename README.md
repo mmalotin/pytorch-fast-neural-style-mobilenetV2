@@ -57,7 +57,7 @@ All models were trained on 128x128 (because of GTX 960m on my laptop) [COCO Data
 
 - Styles
 
-  <img src="https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/mosaic.jpg" width="250"> <img src="https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/picasso.jpg" width="250"> <img src="https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/candy.jpg" width="250">
+  <img src="https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/mosaic.jpg" width="256" height="256"> <img src="https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/picasso.jpg" width="256" height="256"> <img src="https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/candy.jpg" width="256" height="256">
 - Results
 
   <img src="https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/dancing.jpg" width="300"> <img src="https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/dancing_mosaic.jpg" width="300">
