@@ -57,12 +57,12 @@ python webcam.py
 ## Examples
 All models were trained on 128x128 images (because of GTX 960m on my laptop) for 3 epochs.
 
-  ![dancing](/home/nick/D/study/Python/HackerRank/fnst/images/dancing.jpg)
-  ![dancing_m](/home/nick/D/study/Python/HackerRank/fnst/images/results/dancing_mosaic.jpg)
-  ![dancing_p](/home/nick/D/study/Python/HackerRank/fnst/images/results/dancing_picasso.jpg)
-  ![dancing_c](/home/nick/D/study/Python/HackerRank/fnst/images/results/dancing_candy.jpg)
+  ![dancing](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/dancing.jpg =256x256)
+  ![dancing_m](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/dancing_mosaic.jpg =256x256)
+  ![dancing_p](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/dancing_picasso.jpg =256x256)
+  ![dancing_c](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/dancing_candy.jpg =256x256)
 
-  ![pwr](/home/nick/D/study/Python/HackerRank/fnst/images/pwr.jpg)
-  ![pwr_m](/home/nick/D/study/Python/HackerRank/fnst/images/results/pwr_mosaic.jpg)
-  ![pwr_p](/home/nick/D/study/Python/HackerRank/fnst/images/results/pwr_picasso.jpg)
-  ![pwr_c](/home/nick/D/study/Python/HackerRank/fnst/images/results/pwr_candy.jpg)
+  ![pwr](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/pwr.jpg)
+  ![pwr_m](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/pwr_mosaic.jpg)
+  ![pwr_p](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/pwr_picasso.jpg)
+  ![pwr_c](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/pwr_candy.jpg)
