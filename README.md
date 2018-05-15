@@ -58,7 +58,7 @@ python webcam.py
 All models were trained on 128x128 images (because of GTX 960m on my laptop) for 3 epochs.
 
   ![dancing](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/dancing.jpg =256x256)
-  ![dancing_m](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/dancing_mosaic.jpg =256x256)
+  ![dancing_m](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/dancing_mosaic.jpg | width=300)
   ![dancing_p](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/dancing_picasso.jpg =256x256)
   ![dancing_c](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/dancing_candy.jpg =256x256)
 
