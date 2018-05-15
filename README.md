@@ -27,15 +27,13 @@ This repository contains a PyTorch implementation of an algorithm for artistic s
 * The implementation allows you use different weights for different style features, which leads to better visual results.
 
 ## Requirements
-- [pytorch](pytorch.org) (>= 0.4.0)
-- [torchvision](pytorch.org)
+- [pytorch](https://pytorch.org) (>= 0.4.0)
+- [torchvision](https://pytorch.org)
 - [PIL](https://pillow.readthedocs.io/en/5.1.x/)
 - [OpenCV](https://opencv.org/) (for webcam demo)
 - GPU is not necessary
 
 ## Usage
-Pretrained models can be downloaded [here](example.com).
-
 To train the transformer network:
 ```
 python fnst.py -train
@@ -55,14 +53,15 @@ python webcam.py
 
 
 ## Examples
-All models were trained on 128x128 images (because of GTX 960m on my laptop) for 3 epochs.
+All models were trained on 128x128 (because of GTX 960m on my laptop) [COCO Dataset](http://cocodataset.org) images for 3 epochs.
 
-  ![dancing](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/dancing.jpg =256x256)
-  ![dancing_m](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/dancing_mosaic.jpg | width=300)
-  ![dancing_p](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/dancing_picasso.jpg =256x256)
-  ![dancing_c](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/dancing_candy.jpg =256x256)
+- Styles
 
-  ![pwr](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/pwr.jpg)
-  ![pwr_m](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/pwr_mosaic.jpg)
-  ![pwr_p](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/pwr_picasso.jpg)
-  ![pwr_c](https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/pwr_candy.jpg)
+  <img src="https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/mosaic.jpg" width="250"> <img src="https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/picasso.jpg" width="250"> <img src="https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/candy.jpg" width="250">
+- Results
+
+  <img src="https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/dancing.jpg" width="300"> <img src="https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/dancing_mosaic.jpg" width="300">
+  <img src="https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/dancing_picasso.jpg" width="300"> <img src="https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/dancing_candy.jpg" width="300">
+
+  <img src="https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/pwr.jpg" width="400"> <img src="https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/pwr_mosaic.jpg" width="400">
+  <img src="https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/pwr_picasso.jpg" width="400"> <img src="https://raw.githubusercontent.com/mmalotin/pytorch-fast-neural-style-mobilenetV2/master/images/results/pwr_candy.jpg" width="400">
